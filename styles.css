@@ -148,4 +148,34 @@ hr{
 }
 
 
+@media only screen and (max-width: 500px) {
+    header{
+        width: 84%;
+    }
+    main {
+        width: 90%;
+        height: 360px;
+    }
+    .bar-container {
+        width: 10%;
+        margin-left: 3.5%;
+    }
 
+    .bar-container .valor {
+        font-size: 11px;
+    }
+
+    hr{
+        width: 90%;
+    }
+
+    h1{
+        font-size: 28px;
+    }
+    h2{
+        font-size: 19px;
+    }
+    h5{
+        font-size: 12px;
+    }
+}
